@@ -17,6 +17,7 @@ public class calculator extends javax.swing.JFrame {
     String operator;
     public calculator() {
         initComponents();
+        System.out.println("Code Updated by Hannah Evans -2/14/25");
     }
 
     /**
@@ -275,6 +276,7 @@ public class calculator extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    
     private void b3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b3ActionPerformed
 String number = t1.getText()+ b3.getText();
         t1.setText(number);        // TODO add your handling code here:
